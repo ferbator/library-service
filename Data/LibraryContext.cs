@@ -8,6 +8,6 @@ public class LibraryContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Your_Connection_String");
+        optionsBuilder.UseSqlServer("");
     }
 }
